@@ -1,0 +1,55 @@
+main{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1440px;
+}
+
+.main_info{
+    width: 100%;
+    max-width: 560px;
+}
+
+.main_info p{
+    font size: 10px;
+    margin: 20px 0 20px;
+    color: #fff;
+
+}
+
+.main_info div a, .main_info div button{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    transform: skew(-10deg);
+}
+
+.main_info a {
+    background: var(orange);
+
+}
+
+.main_info button {
+    background:brown;
+    border: 1 px solid  var(brown);
+}
+
+.main img{
+    position: var(right);
+}
+
+.main_video{
+    position: absolute;
+    border-radius: 50%;
+    border: solid white;
+}
+
+

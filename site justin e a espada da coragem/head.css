@@ -1,0 +1,6 @@
+head{
+    display: flex;
+    text-align: center;
+    column-gap: 64px;
+    background-color: brown;
+}
